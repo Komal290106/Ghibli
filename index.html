@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step Into the World of Ghibli</title>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Lato:wght@400;700&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Great+Vibes&family=Henny+Penny&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Outfit:wght@100..900&family=Pacifico&family=Parisienne&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Press+Start+2P&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ========================================
+         HEADER NAVIGATION
+    ========================================= -->
+    <header class="header">
+        <a href="#hero" class="logo">
+            <img src="logo.png" alt="Ghibli Magic Logo" />
+        </a>
+
+        <!-- Mobile Menu Toggle -->
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox" />
+        <label for="menu-toggle" class="menu-icon">☰</label>
+
+        <!-- Navigation Links -->
+        <div class="dropdown">
+            <a href="#movies">Movies</a>
+            <a href="#quotes">Quotes</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#characters">Characters</a>
+            <a href="#timeline">History</a>
+            <a href="#ghibli-kitchen">Recipes</a>
+        </div>
+    </header>
+
+    <!-- ========================================
+         HERO SECTION
+    ========================================= -->
+    <section id="hero" class="hero">
+        <!-- Floating Sprites Animation -->
+        <div class="floating-sprite"></div>
+        <div class="floating-sprite"></div>
+        <div class="floating-sprite"></div>
+        
+        <div class="hero-content">
+            <h1>Step Into the World of Ghibli</h1>
+            <p>"The best things in life are worth waiting for, and they're usually magical."</p>
+        </div>
+    </section>
+
+    <!-- ========================================
+         MOVIES SECTION
+    ========================================= -->
+    <section id="movies" class="section">
+        <h2>Magical Movies</h2>
+        <div class="movies-grid">
+            
+            <!-- Movie Card: Howl's Moving Castle -->
+            <div class="movie-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="https://www.tallengestore.com/cdn/shop/files/HowlsMovingCastle-HayaoMiyazaki-StudioGhibli-JapaneseAnimatedMoviePoster_f989568b-ed1d-4c41-8797-726c5c8e9526.jpg?v=1733296879" alt="Howl's Moving Castle" class="movie-poster" />
+                        <h3 class="movie-title">Howl's Moving Castle</h3>
+                    </div>
+                    <div class="card-back">
+                        <h3>Howl's Moving Castle</h3>
+                        <p>A young woman cursed with old age finds refuge in Howl's magical moving castle. A tale of love, war, and self-acceptance.</p>
+                        <p><strong>Released:</strong> 2004</p>
+                        <p><strong>Fun fact:</strong> The castle design was inspired by various European architectures!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Movie Card: My Neighbor Totoro -->
+            <div class="movie-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/0/02/My_Neighbor_Totoro_-_Tonari_no_Totoro_%28Movie_Poster%29.jpg" alt="My Neighbor Totoro" class="movie-poster" />
+                        <h3 class="movie-title">My Neighbor Totoro</h3>
+                    </div>
+                    <div class="card-back">
+                        <h3>My Neighbor Totoro</h3>
+                        <p>Two sisters discover magical forest creatures when they move to the countryside with their father.</p>
+                        <p><strong>Released:</strong> 1988</p>
+                        <p><strong>Fun fact:</strong> Totoro became Studio Ghibli's mascot and symbol of childhood wonder!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Movie Card: Spirited Away -->
+            <div class="movie-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="https://m.media-amazon.com/images/M/MV5BMTgyOTQ4NjEzNF5BMl5BanBnXkFtZTgwODY1MTMyMDE@._V1_QL75_UX526.5_.jpg" alt="Spirited Away" class="movie-poster" />
+                        <h3 class="movie-title">Spirited Away</h3>
+                    </div>
+                    <div class="card-back">
+                        <h3>Spirited Away</h3>
+                        <p>A young girl works in a mystical bathhouse to save her parents from a curse.</p>
+                        <p><strong>Released:</strong> 2001</p>
+                        <p><strong>Fun fact:</strong> First anime to win an Academy Award for Best Animated Feature!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Movie Card: Kiki's Delivery Service -->
+            <div class="movie-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/0/07/Kiki%27s_Delivery_Service_%28Movie%29.jpg" alt="Kiki's Delivery Service" class="movie-poster" />
+                        <h3 class="movie-title">Kiki's Delivery Service</h3>
+                    </div>
+                    <div class="card-back">
+                        <h3>Kiki's Delivery Service</h3>
+                        <p>A young witch starts her own delivery service while finding her place in the world.</p>
+                        <p><strong>Released:</strong> 1989</p>
+                        <p><strong>Fun fact:</strong> The city was inspired by Stockholm and other European cities!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Movie Card: Ponyo -->
+            <div class="movie-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="https://m.media-amazon.com/images/M/MV5BZDkzMzQ5ZmQtOTA3MC00MjhiLTk5M2UtNzk0MjEzZmVjN2UxXkEyXkFqcGc@._V1_.jpg" alt="Ponyo" class="movie-poster" />
+                        <h3 class="movie-title">Ponyo</h3>
+                    </div>
+                    <div class="card-back">
+                        <h3>Ponyo</h3>
+                        <p>A magical fish girl befriends a young boy in this oceanic adventure of friendship.</p>
+                        <p><strong>Released:</strong> 2008</p>
+                        <p><strong>Fun fact:</strong> Every frame was hand-drawn - over 170,000 individual images!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Movie Card: Castle in the Sky -->
+            <div class="movie-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="https://m.media-amazon.com/images/M/MV5BMTQ1MjQzMjMxN15BMl5BanBnXkFtZTcwODI4ODAyNw@@._V1_QL75_UX502.5_.jpg" alt="Castle in the sky" class="movie-poster" />
+                        <h3 class="movie-title">Castle in the Sky</h3>
+                    </div>
+                    <div class="card-back">
+                        <h3>Castle in the Sky</h3>
+                        <p>A young girl and boy search for a legendary floating castle and its ancient secrets.</p>
+                        <p><strong>Released:</strong> 1986</p>
+                        <p><strong>Fun fact:</strong> This was Studio Ghibli's very first film production!</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- ========================================
+         QUOTES SECTION
+    ========================================= -->
+    <section id="quotes" class="section">
+        <h2>Words of Wonder</h2>
+        <div class="quotes-grid">
+            
+            <div class="quote-card">
+                <p class="quote-text">"The world is cursed, but still you find reasons to keep living."</p>
+                <p class="quote-source">— Osa, Princess Mononoke (1997)</p>
+            </div>
+            
+            <div class="quote-card">
+                <p class="quote-text">"Once you've met someone, you never really forget them."</p>
+                <p class="quote-source">— Zeniba, Spirited Away (2001)</p>
+            </div>
+            
+            <div class="quote-card">
+                <p class="quote-text">"A heart's a heavy burden."</p>
+                <p class="quote-source">— Sophie, Howl's Moving Castle (2004)</p>
+            </div>
+            
+            <div class="quote-card">
+                <p class="quote-text">"Sometimes you have to fight for the things that are worth fighting for."</p>
+                <p class="quote-source">— Arrietty, The Secret World of Arrietty (2010)</p>
+            </div>
+            
+            <div class="quote-card">
+                <p class="quote-text">"Whenever someone creates something with all of their heart, then that creation is given a soul."</p>
+                <p class="quote-source">— The Baron, The Cat Returns (2002)</p>
+            </div>
+            
+            <div class="quote-card">
+                <p class="quote-text">"We each need to find our own inspiration. Sometimes, it's not easy."</p>
+                <p class="quote-source">— Kiki, Kiki's Delivery Service (1989)</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- ========================================
+         GALLERY SECTION
+    ========================================= -->
+    <section id="gallery" class="section gallery">
+        <h2>Favorite Scenes</h2>
+        <div class="gallery-grid">
+            
+            <div class="gallery-item">
+                <img src="https://m.media-amazon.com/images/M/MV5BMTk1OTg1Nzg4OF5BMl5BanBnXkFtZTcwMzI4ODAyNw@@._V1_QL75_UX589.5_.jpg" alt="Castle in the Sky">
+                <div class="gallery-caption">
+                    <strong>Castle in the Sky</strong><br>
+                    The floating garden discovery
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="https://m.media-amazon.com/images/M/MV5BMTg1NzkyNDk4N15BMl5BanBnXkFtZTgwMDE2MDIyMDE@._V1_QL75_UX523.5_.jpg" alt="My Neighbor Totoro">
+                <div class="gallery-caption">
+                    <strong>My Neighbor Totoro</strong><br>
+                    Waiting for the bus with Totoro
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="https://m.media-amazon.com/images/M/MV5BMTcxMTcxMDE4MV5BMl5BanBnXkFtZTcwMDI0MjIyNw@@._V1_QL75_UX607.5_.jpg" alt="Spirited Away">
+                <div class="gallery-caption">
+                    <strong>Spirited Away</strong><br>
+                    The mysterious train journey
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="https://m.media-amazon.com/images/M/MV5BYTA3YTdlYzMtNjA4Mi00MGE1LWExYjYtYjMwNjFjNTNkOTYzXkEyXkFqcGc@._V1_QL75_UX601.5_.jpg" alt="Kik's Delivery Service">
+                <div class="gallery-caption">
+                    <strong>Kiki's Delivery Service</strong><br>
+                    First flight over the city
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="https://m.media-amazon.com/images/M/MV5BMTgzNzQ5OTYyOV5BMl5BanBnXkFtZTcwNjQzNDM3Mg@@._V1_QL75_UX609_.jpg" alt="Ponyo">
+                <div class="gallery-caption">
+                    <strong>Ponyo</strong><br>
+                    Running on the tsunami waves
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="https://m.media-amazon.com/images/M/MV5BNWYzNWY2YWMtNjg2Ni00YmU1LTlmODMtMzgwYWE4YjMwYTY3XkEyXkFqcGc@._V1_QL75_UX606_.jpg" alt="Howl's Moving Castle">
+                <div class="gallery-caption">
+                    <strong>Howl's Moving Castle</strong><br>
+                    The star-filled meadow scene
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- ========================================
+         CHARACTERS SECTION
+    ========================================= -->
+    <section id="characters" class="section">
+        <h2>Beloved Characters</h2>
+        <div class="characters-grid">
+            
+            <div class="character-card">
+                <div class="character-avatar">
+                    <img src="https://wallpapers.com/images/high/totoro-pictures-8nggc2gnl6kuq1j8.webp" alt="Totoro">
+                </div>
+                <h3 class="character-name">Totoro</h3>
+                <p class="character-description">The gentle giant forest spirit who embodies childhood wonder and magic.</p>
+            </div>
+
+            <div class="character-card">
+                <div class="character-avatar">
+                    <img src="https://wallpapers.com/images/high/chihiroand-dragon-night-adventure-avvdpbcrqsy7ieww.webp" alt="Chihiro">
+                </div>
+                <h3 class="character-name">Chihiro</h3>
+                <p class="character-description">A brave young girl who discovers her strength in a world of spirits.</p>
+            </div>
+
+            <div class="character-card">
+                <div class="character-avatar">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbi2u23uzqYvdvDkkVuLL6CnGsbh0CP6CkeQ&s" alt="Howl">
+                </div>
+                <h3 class="character-name">Howl</h3>
+                <p class="character-description">A mysterious wizard with a dramatic flair and a heart of gold.</p>
+            </div>
+
+            <div class="character-card">
+                <div class="character-avatar">
+                    <img src="https://wallpapers.com/images/high/kiki-s-delivery-service-1920-x-1080-wallpaper-yreore93uehgk1kz.webp" alt="Kiki">
+                </div>
+                <h3 class="character-name">Kiki</h3>
+                <p class="character-description">An independent young witch learning to find her place in the world.</p>
+            </div>
+
+            <div class="character-card">
+                <div class="character-avatar">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSefh53NGmvuOU4s5hTP_qhVtkNvTcYiksUtA&s" alt="Ponyo">
+                </div>
+                <h3 class="character-name">Ponyo</h3>
+                <p class="character-description">A magical fish girl whose pure heart brings joy and chaos wherever she goes.</p>
+            </div>
+
+            <div class="character-card">
+                <div class="character-avatar">
+                    <img src="https://wallpapers.com/images/high/arrietty-reading-a-paper-xt23kcfafculn6i0.webp" alt="Arrietty">
+                </div>
+                <h3 class="character-name">Arrietty</h3>
+                <p class="character-description">A tiny but brave Borrower who shows that courage comes in all sizes.</p>
+            </div>
+
+            <div class="character-card">
+                <div class="character-avatar">
+                    <img src="https://wallpapers.com/images/high/nausicaa-of-the-valley-of-the-wind-2331-x-1306-wallpaper-ds8c3g0lpd93iw3d.webp" alt="Nausicaä">
+                </div>
+                <h3 class="character-name">Nausicaä</h3>
+                <p class="character-description">A compassionate princess who fights to protect her world and its creatures.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- ========================================
+         TIMELINE SECTION
+    ========================================= -->
+    <section id="timeline" class="timeline-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ghibli's Journey</h2>
+                <p class="section-subtitle">A story told through time</p>
+            </div>
+
+            <div class="timeline-compact">
+                <div class="timeline-track">
+                    
+                    <div class="milestone-compact">
+                        <div class="year-bubble">1985</div>
+                        <div class="content-compact">
+                            <div class="title-compact">The Beginning</div>
+                            <div class="description-compact">Studio founded by Miyazaki & Takahata</div>
+                        </div>
+                    </div>
+
+                    <div class="milestone-compact">
+                        <div class="year-bubble">1988</div>
+                        <div class="content-compact">
+                            <div class="title-compact">Totoro's Birth</div>
+                            <div class="description-compact">Forest spirit becomes an iconic symbol</div>
+                        </div>
+                    </div>
+
+                    <div class="milestone-compact">
+                        <div class="year-bubble">2001</div>
+                        <div class="content-compact">
+                            <div class="title-compact">Oscar Triumph</div>
+                            <div class="description-compact">Spirited Away wins Academy Award</div>
+                        </div>
+                    </div>
+
+                    <div class="milestone-compact">
+                        <div class="year-bubble">2013</div>
+                        <div class="content-compact">
+                            <div class="title-compact">Wind Rises</div>
+                            <div class="description-compact">Miyazaki's temporary farewell</div>
+                        </div>
+                    </div>
+
+                    <div class="milestone-compact">
+                        <div class="year-bubble">2023</div>
+                        <div class="content-compact">
+                            <div class="title-compact">Return</div>
+                            <div class="description-compact">The Boy and the Heron marks a new era</div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="mini-quote">
+                <p>"Where there is magic, there is hope"</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         MIYAZAKI TRIBUTE SECTION
+    ========================================= -->
+    <section class="miyazaki-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">The Heart Behind the Magic</h2>
+            </div>
+
+            <div class="miyazaki-content">
+                
+                <!-- Text Content -->
+                <div class="miyazaki-text">
+                    <div class="text-content">
+                        <p>Hayao Miyazaki - the visionary storyteller whose films remind us that courage, kindness, and wonder live in the smallest moments. His worlds breathe with hand-drawn sincerity, and every frame hums with life.</p>
+                        
+                        <p>From <em>My Neighbor Totoro</em> to <em>The Wind Rises</em>, Miyazaki continues to show that animation is not just art - it's emotion in motion, a testament to the beauty found in everyday magic.</p>
+                    </div>
+
+                    <div class="section-divider"></div>
+
+                    <!-- External Links -->
+                    <div class="ghibli-links">
+                        <h3 class="links-title">Explore More</h3>
+                        <div class="links-grid">
+                            <a href="https://www.ghibli.jp" class="link-item" target="_blank">
+                                <span class="link-text">Visit Official Ghibli Site</span>
+                                <span class="link-arrow">→</span>
+                            </a>
+                            
+                            <a href="https://www.ghibli-museum.jp" class="link-item" target="_blank">
+                                <span class="link-text">Explore Ghibli Museum & Merch</span>
+                                <span class="link-arrow">→</span>
+                            </a>
+                            
+                            <a href="https://open.spotify.com/playlist/6JOJvw5BTkVzvs1Hw7KGKr?si=aa60d72fb82242a4" class="link-item" target="_blank">
+                                <span class="link-text">Listen to Ghibli Melodies</span>
+                                <span class="link-arrow">→</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portrait Image -->
+                <div class="miyazaki-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/HayaoMiyazakiCCJuly09.jpg" alt="Hayao Miyazaki">
+                    <div class="image-overlay"></div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         GHIBLI KITCHEN SECTION
+    ========================================= -->
+    <section id="ghibli-kitchen" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Ghibli Kitchen</h2>
+                <p>Recipes from my favorite films</p>
+            </div>
+
+            <div class="recipes-grid">
+                
+                <!-- Recipe: Howl's Breakfast -->
+                <div class="recipe-card">
+                    <div class="recipe-image">
+                        <img src="https://cartooncravings.com/wp-content/uploads/2017/05/howl-breakfast.jpg?w=339&h=226" alt="Howl's Breakfast">
+                        <div class="recipe-overlay"></div>
+                        <div class="film-badge">Howl's Moving Castle</div>
+                    </div>
+                    <div class="recipe-content">
+                        <h3>Howl's Famous Breakfast</h3>
+                        <p class="recipe-description">Sizzling bacon, eggs, and cheese - the breakfast that made Calcifer proud</p>
+                        <div class="recipe-details">
+                            <span class="time"><i class="far fa-clock"></i> 20 mins</span>
+                            <span class="difficulty"><i class="fas fa-utensils"></i> Easy</span>
+                        </div>
+                        <a href="https://youtu.be/UPccIAVvQA4?si=tuTZeePT7bW8kRTZ" target="_blank" class="recipe-btn">
+                            <span>Watch Recipe</span>
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Recipe: Ponyo's Ramen -->
+                <div class="recipe-card">
+                    <div class="recipe-image">
+                        <img src="https://44.media.tumblr.com/9d1b204f1ecd4cdd764f32b3256de99f/tumblr_o69syefxte1vpmoyto1_500.gif" alt="Ponyo's Ramen">
+                        <div class="recipe-overlay"></div>
+                        <div class="film-badge">Ponyo</div>
+                    </div>
+                    <div class="recipe-content">
+                        <h3>Ponyo's Ramen</h3>
+                        <p class="recipe-description">Ham, egg, and green onion ramen that brings comfort and warmth</p>
+                        <div class="recipe-details">
+                            <span class="time"><i class="far fa-clock"></i> 15 mins</span>
+                            <span class="difficulty"><i class="fas fa-utensils"></i> Very Easy</span>
+                        </div>
+                        <a href="https://youtu.be/HTcO3YXlPJY?si=AyHzs3RvyfdJn2S7" target="_blank" class="recipe-btn">
+                            <span>Watch Recipe</span>
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Recipe: Kiki's Herring Pie -->
+                <div class="recipe-card">
+                    <div class="recipe-image">
+                        <img src="https://64.media.tumblr.com/tumblr_m04enjvN3k1r6xu90o1_640.jpg" alt="Kiki's Pie">
+                        <div class="recipe-overlay"></div>
+                        <div class="film-badge">Kiki's Delivery Service</div>
+                    </div>
+                    <div class="recipe-content">
+                        <h3>Kiki's Herring Pie</h3>
+                        <p class="recipe-description">The famous pie that started Kiki's delivery service adventure</p>
+                        <div class="recipe-details">
+                            <span class="time"><i class="far fa-clock"></i> 45 mins</span>
+                            <span class="difficulty"><i class="fas fa-utensils"></i> Medium</span>
+                        </div>
+                        <a href="https://youtu.be/c7tMpaSOuz8?si=Ke3ij9X5i29m2qwa" target="_blank" class="recipe-btn">
+                            <span>Watch Recipe</span>
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Recipe: Chihiro's Onigiri -->
+                <div class="recipe-card">
+                    <div class="recipe-image">
+                        <img src="https://sienasfoodandfilms.wordpress.com/wp-content/uploads/2020/11/chihiro-1.jpeg?w=1024" alt="Chihiro's Onigiri">
+                        <div class="recipe-overlay"></div>
+                        <div class="film-badge">Spirited Away</div>
+                    </div>
+                    <div class="recipe-content">
+                        <h3>Chihiro's Onigiri</h3>
+                        <p class="recipe-description">Simple rice balls that brought comfort in a mysterious world</p>
+                        <div class="recipe-details">
+                            <span class="time"><i class="far fa-clock"></i> 25 mins</span>
+                            <span class="difficulty"><i class="fas fa-utensils"></i> Easy</span>
+                        </div>
+                        <a href="https://youtu.be/cmlvzJ6vaMs?si=1VUYcLCpKif6icsa" target="_blank" class="recipe-btn">
+                            <span>Watch Recipe</span>
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Recipe: Satsuki's Bento -->
+                <div class="recipe-card">
+                    <div class="recipe-image">
+                        <img src="https://64.media.tumblr.com/b962cb75e357f8062e5f6a33a959c879/tumblr_inline_p7ga1w8nLv1sywb9i_500.jpg" alt="Satsuki's Bento">
+                        <div class="recipe-overlay"></div>
+                        <div class="film-badge">My Neighbor Totoro</div>
+                    </div>
+                    <div class="recipe-content">
+                        <h3>Satsuki's Bento Box</h3>
+                        <p class="recipe-description">Colorful Japanese lunch box perfect for a day with Totoro</p>
+                        <div class="recipe-details">
+                            <span class="time"><i class="far fa-clock"></i> 35 mins</span>
+                            <span class="difficulty"><i class="fas fa-utensils"></i> Medium</span>
+                        </div>
+                        <a href="https://youtu.be/cLzOdyURSyc?si=fM0nmN-UVLbngCip" target="_blank" class="recipe-btn">
+                            <span>Watch Recipe</span>
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Recipe: Spirit World Feast -->
+                <div class="recipe-card">
+                    <div class="recipe-image">
+                        <img src="https://images.squarespace-cdn.com/content/v1/5a90557e1137a6fdeeb6bb3e/1592395203765-N0UQBZOBE397O2QUAUT1/b6a71298e340a3078489844da8153060.jpg" alt="Spirit Food">
+                        <div class="recipe-overlay"></div>
+                        <div class="film-badge">Spirited Away</div>
+                    </div>
+                    <div class="recipe-content">
+                        <h3>Spirit World Feast</h3>
+                        <p class="recipe-description">The magical feast that tempted Chihiro's parents</p>
+                        <div class="recipe-details">
+                            <span class="time"><i class="far fa-clock"></i> 60 mins</span>
+                            <span class="difficulty"><i class="fas fa-utensils"></i> Hard</span>
+                        </div>
+                        <a href="https://youtu.be/GI-w_R7CqR8?si=teCG9Bc2pmlKYL5s" target="_blank" class="recipe-btn">
+                            <span>Watch Recipe</span>
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FOOTER
+    ========================================= -->
+    <footer class="footer">
+        <!-- Animated Background Elements -->
+        <div class="magic-circle circle-1"></div>
+        <div class="magic-circle circle-2"></div>
+        <div class="magic-circle circle-3"></div>
+
+        <div class="footer-content">
+            
+            <!-- Left Column: Logo & Quote -->
+            <div class="footer-left">
+                <img src="logo.png" alt="Brand Logo" class="footer-logo">
+                <div class="footer-quote-section">
+                    <p class="footer-quote">"Keep the magic alive, always."</p>
+                    <div class="credit">
+                        <p>Made with ☕ and endless Studio Ghibli love</p>
+                        <p class="signature">by Komal Kaur Dhillon</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Center Column: Navigation Links -->
+            <div class="footer-nav">
+                <h3 class="footer-heading">Explore</h3>
+                <div class="nav-columns">
+                    <div class="nav-column">
+                        <a href="#movies">Movies</a>
+                        <a href="#gallery">Gallery</a>
+                        <a href="#timeline">History</a>
+                    </div>
+                    <div class="nav-column">
+                        <a href="#quotes">Quotes</a>
+                        <a href="#characters">Characters</a>
+                        <a href="#ghibli-kitchen">Recipes</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Social Media Links -->
+            <div class="social-links">
+                <h3 class="footer-heading">Connect With Me</h3>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/komal-kaur-dhillon-59149a330/" class="social-icon" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Komal290106" class="social-icon" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://portfolio-gamma-ochre-fa6t9qiz53.vercel.app/" class="social-icon" target="_blank" title="Portfolio">
+                        <i class="fas fa-briefcase"></i>
+                    </a>
+                    <a href="https://www.instagram.com/dhillonkomalkaur?igsh=Z2xqamJiMm95MTk1" class="social-icon" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+
+</body>
+</html>
