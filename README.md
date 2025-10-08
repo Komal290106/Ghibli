@@ -40,4 +40,5 @@ This project was my way of capturing a bit of that magic .
 
 
 ## Credits
-Made with ☕ and endless Studio Ghibli love.  
+Made with ☕ and endless Studio Ghibli love
+-by Komal
