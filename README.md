@@ -1,4 +1,4 @@
-#  Studio Ghibli Inspired Website
+#  Studio Ghibli Fanpage Website
 
 I love Studio Ghibli movies, so I wanted to create something simple yet magical dedicated to them.  
 This project is a **static website** built entirely with **HTML and CSS** — no frameworks, no JavaScript, just pure creativity and styling.  
